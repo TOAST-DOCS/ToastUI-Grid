@@ -35,7 +35,7 @@ Check more detailed explanation on [https://github.com/nhnent/tui.grid/wiki](htt
 ## Documentation
 * **API** : [https://nhnent.github.io/tui.grid/api](https://nhnent.github.io/tui.grid/api)
 * **Tutorial** : [https://github.com/nhnent/tui.grid/wiki/Getting-Started](https://github.com/nhnent/tui.grid/wiki/Getting-Started)
-* **Sample** : [https://nhnent.github.io/tui.grid/api/tutorial-sample1.html](https://nhnent.github.io/tui.grid/api/tutorial-sample1.html)
+* **Sample** : [https://nhnent.github.io/tui.grid/api/tutorial-example1.html](https://nhnent.github.io/tui.grid/api/tutorial-example1.html)
 
 You can also see the older versions of API page on the [releases page](https://github.com/nhnent/tui.grid/releases).
 
