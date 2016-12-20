@@ -1,9 +1,7 @@
 ## Open Source > ToastUI Grid > Overview
 
-# Overview
-
-## [![toast ui grid](https://cloud.githubusercontent.com/assets/7088720/21300720/f2e62212-c5e9-11e6-873b-7e3518026ac0.png)](https://github.com/nhnent/tui.grid)
-<br>
+![toast ui grid](https://cloud.githubusercontent.com/assets/7088720/21300720/f2e62212-c5e9-11e6-873b-7e3518026ac0.png)
+===============
 The Toast UI Grid is a powerful widget which allows you to visualize and edit data via its table representation.
 
 ## Features
