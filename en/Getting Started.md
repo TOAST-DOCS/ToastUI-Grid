@@ -62,7 +62,7 @@ Similarly, you can download and include files through the npm. In this case, the
 <script src="node_modules/tui-grid/dist/tui-grid.js"></script>
 ```
 
-There is one more thing to do. The Toast-UI Grid uses two images to display a loading-indicator and icons, `ani_loading.gif` and `icons.gif` respectively. In the CSS file, paths of these images are specified with the relative path `../images/`. If you place the images in the different paths, you should find and replace all paths of the images in the CSS file to the correct paths.
+There is one more thing to do. The Toast-UI Grid uses two images to display a loading-indicator and icons, **ani_loading.gif** and **icons.gif** respectively. In the CSS file, paths of these images are specified with the relative path **../images/**. If you place the images in the different paths, you should find and replace all paths of the images in the CSS file to the correct paths.
 
 ## Creating an Instance
 
