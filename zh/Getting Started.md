@@ -56,7 +56,7 @@ Similarly, you can download and include files through the npm. In this case, the
 <script src="node_modules/tui-grid/dist/tui-grid.js"></script>
 ```
 
-Similarly, you can download and include files through the npm. In this case, the `bower_components` directory is replaced by `node_modules`.
+Similarly, you can download and include files through the npm. In this case, the **bower_components** directory is replaced by **node_modules**.
 
 ```html
 <script src="node_modules/tui-grid/dist/tui-grid.js"></script>
