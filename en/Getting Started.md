@@ -32,7 +32,7 @@ You can also download these files manually at the [dist directory](https://githu
 
 ## Including Files
 
-Now you can include the script files to your html page. If you download files through the *bower*, they will be in the `bower_components` directory.
+Now you can include the script files to your html page. If you download files through the *bower*, they will be in the **bower_components** directory.
 
 ```html
 <script src="bower_components/jquery/jquery.js"></script>
@@ -50,6 +50,12 @@ You need to include the CSS file as well.
 <link rel="stylesheet" type="text/css" href="bower_components/tui-grid/dist/tui-grid.css" />
 ```
 
+Similarly, you can download and include files through the npm. In this case, the **bower_components** directory is replaced by **node_modules**.
+
+```html
+<script src="node_modules/tui-grid/dist/tui-grid.js"></script>
+```
+
 Similarly, you can download and include files through the npm. In this case, the `bower_components` directory is replaced by `node_modules`.
 
 ```html
@@ -60,7 +66,7 @@ There is one more thing to do. The Toast-UI Grid uses two images to display a lo
 
 ## Creating an Instance
 
-To use the **Toast-UI Grid** in your page, you should create an instance of `tui.Grid` like example below.
+To use the **Toast-UI Grid** in your page, you should create an instance of **tui.Grid** like example below.
 This uses the Grid class as a namespace when you include the script files in your html page.
 
 ```javascript
@@ -80,13 +86,13 @@ var Grid = require('tui-grid');
 var grid = new Grid(...);
 ```
 
-The Grid class receives an option object as a parameter, in which only `el` field is required. The value of `el` should be a jQuery object of the HTML element you want to use as a wrapper. As this does not create an HTML element automatically, the wrapper element must exist in advance when creating the instance.
+The Grid class receives an option object as a parameter, in which only **el** field is required. The value of **el** should be a jQuery object of the HTML element you want to use as a wrapper. As this does not create an HTML element automatically, the wrapper element must exist in advance when creating the instance.
 
-Another options like `data`, `virtualScrolling`, `editingEvent` are optional, and you can find more options in detail at the [API page](https://nhnent.github.io/tui.grid/api).
+Another options like **data**, **virtualScrolling**, **editingEvent** are optional, and you can find more options in detail at the [API page](https://nhnent.github.io/tui.grid/api).
 
 ## Defining Column Models
 
-Before you add data to the Grid, you need to define column models which specify the schema of data. You can use `setColumns()` method to define them, like an example below.
+Before you add data to the Grid, you need to define column models which specify the schema of data. You can use **setColumns()** method to define them, like an example below.
 
 ```javascript
 grid.setColumns([
@@ -111,12 +117,12 @@ grid.setColumns([
 ]);
 ```
 
-The `setColumns()` method receives an array as a parameter, in which each element specifies a column definition.
-The `name` property is only required, and it's used as a key of row data. The string value defined as the `title` property is shown in the column header. It's optional, but it would be better to set it because the column header will be empty without this value.
+The **setColumns()** method receives an array as a parameter, in which each element specifies a column definition.
+The **name** property is only required, and it's used as a key of row data. The string value defined as the **title** property is shown in the column header. It's optional, but it would be better to set it because the column header will be empty without this value.
 
-You can specify the input type of the column using the `editOptions.type` property. If not specified, the type will be a `normal`, which is plain text that is not editable. The `text` type uses an `input[type=text]` element to present the value of the cell. More types like `select`, `checkbox` can be used as an `editOptions.type`. In addition, there are other options which can be used as a property of the `editOptions`. You can find the details about the `editOptions` at the [API page](https://nhnent.github.io/tui.grid/api).
+You can specify the input type of the column using the **editOptions.type** property. If not specified, the type will be a **normal**, which is plain text that is not editable. The **text** type uses an **input[type=text]** element to present the value of the cell. More types like **select**, **checkbox** can be used as an **editOptions.type**. In addition, there are other options which can be used as a property of the **editOptions**. You can find the details about the **editOptions** at the [API page](https://nhnent.github.io/tui.grid/api).
 
-You can also define the column models with a `columns` option when creating the Grid instance.
+You can also define the column models with a **columns** option when creating the Grid instance.
 
 ```javascript
 var grid = new tui.Grid({
@@ -130,7 +136,7 @@ var grid = new tui.Grid({
 
 ## Setting data
 
-Finally, you can set your data to the Grid using the `data` option or the `setData()` method.
+Finally, you can set your data to the Grid using the **data** option or the **setData()** method.
 
 ```javascript
 var data = [
@@ -172,7 +178,7 @@ var grid = new tui.Grid({
 grid.setData(data);
 ```
 
-The `data` option or the `setData()` method receives an array as a parameter, in which each element specifies a row data. The data is just a plain object. You can see that the properties of each row data matches the `name` properties of the column models, that is specified above.
+The **data** option or the **setData()** method receives an array as a parameter, in which each element specifies a row data. The data is just a plain object. You can see that the properties of each row data matches the **name** properties of the column models, that is specified above.
 
 Then you can see the table of your data on your screen.
 

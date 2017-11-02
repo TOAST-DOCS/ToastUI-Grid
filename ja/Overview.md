@@ -44,8 +44,8 @@ You can also see the older versions of API page on the [releases page](https://g
 * [backbone](http://backbonejs.org/) >=1.3.3
 * [tui-code-snippet](https://github.com/nhnent/tui.code-snippett) >=1.2.5
 * component (optional)
-  * [tui-pagination](https://github.com/nhnent/tui.pagination) >=3.0.0
-  * [tui-date-picker](https://github.com/nhnent/tui.date-picker) >=3.0.0
+  - [tui-pagination](https://github.com/nhnent/tui.pagination) >=3.0.0
+  - [tui-date-picker](https://github.com/nhnent/tui.date-picker) >=3.0.0
 
 You can also use **lodash** instead of underscore and use **higher version of jquery** (like v2.x.x) depending on your project.
 
@@ -57,9 +57,9 @@ You can also use **lodash** instead of underscore and use **higher version of jq
 * Safari
 
 ## Usage
-### Use `npm`
+### Use **npm**
 
-Install the latest version using `npm` command:
+Install the latest version using **npm** command:
 
 ```
 $ npm install tui-grid --save
@@ -78,8 +78,8 @@ var Grid = require('tui-grid');
 var instance = new Grid(...);
 ```
 
-### Use `bower`
-Install the latest version using `bower` command:
+### Use **bower**
+Install the latest version using **bower** command:
 
 ```
 $ bower install tui-grid
@@ -98,7 +98,7 @@ var instance = new tui.Grid(...);
 ```
 
 ### Download
-* [Download bundle files from `dist` folder.](https://github.com/nhnent/tui.grid/tree/production/dist)
+* [Download bundle files from **dist** folder.](https://github.com/nhnent/tui.grid/tree/production/dist)
 * [Download all sources for each version.](https://github.com/nhnent/tui.grid/releases)
 
 ## License
