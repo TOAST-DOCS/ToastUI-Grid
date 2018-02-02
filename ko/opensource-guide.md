@@ -1,4 +1,4 @@
-## Open Source > ToastUI Grid > Open Source Guide
+## Open Source > ToastUI Grid > 오픈 소스 사용 가이드
 
 ## Downloading Files
 
