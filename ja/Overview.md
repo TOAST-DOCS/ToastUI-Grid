@@ -1,4 +1,4 @@
-## Open Source > ToastUI Grid > Overview
+## Open Source > ToastUI Grid > 개요
 
 ## ![toast ui grid](https://cloud.githubusercontent.com/assets/12269489/13489851/a5ca2490-e16c-11e5-8d80-3bf6fe3b940d.png)
 <br>
