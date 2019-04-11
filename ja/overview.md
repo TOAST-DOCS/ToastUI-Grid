@@ -29,27 +29,23 @@ The video below shows the major features of Toast UI Grid briefly.<br>
 
 [![intro-movie-shot](http://static.toastoven.net/prod_toastuigrid/intro-movie-sshot.png)](https://www.youtube.com/watch?v=pyPlOFhexQk)
 
-Check more detailed explanation on https://github.com/nhnent/tui.grid/wiki.
+Check more detailed explanation on https://github.com/nhn/tui.grid/wiki.
 
 ## Documentation
-* **API** : [https://nhnent.github.io/tui.grid/api](https://nhnent.github.io/tui.grid/api)
-* **Tutorial** : [https://github.com/nhnent/tui.grid/wiki/Getting-Started](https://github.com/nhnent/tui.grid/wiki/Getting-Started)
-* **Example** : [https://nhnent.github.io/tui.grid/api/tutorial-example01-basic.html](https://nhnent.github.io/tui.grid/api/tutorial-example01-basic.html)
-<<<<<<< HEAD
+* **API** : [https://nhn.github.io/tui.grid/api](https://nhn.github.io/tui.grid/api)
+* **Tutorial** : [https://github.com/nhn/tui.grid/wiki/Getting-Started](https://github.com/nhn/tui.grid/wiki/Getting-Started)
+* **Example** : [https://nhn.github.io/tui.grid/api/tutorial-example01-basic.html](https://nhn.github.io/tui.grid/api/tutorial-example01-basic.html)
 
-=======
->>>>>>> alpha
-
-You can also see the older versions of API page on the [releases page](https://github.com/nhnent/tui.grid/releases).
+You can also see the older versions of API page on the [releases page](https://github.com/nhn/tui.grid/releases).
 
 ## Dependencies
 * [jquery](https://jquery.com/) >=1.11.0
 * [underscore](http://underscorejs.org/) >=1.8.3
 * [backbone](http://backbonejs.org/) >=1.3.3
-* [tui-code-snippet](https://github.com/nhnent/tui.code-snippett) >=1.2.5
+* [tui-code-snippet](https://github.com/nhn/tui.code-snippett) >=1.2.5
 * component (optional)
-  - [tui-pagination](https://github.com/nhnent/tui.pagination) >=3.0.0
-  - [tui-date-picker](https://github.com/nhnent/tui.date-picker) >=3.0.0
+  - [tui-pagination](https://github.com/nhn/tui.pagination) >=3.0.0
+  - [tui-date-picker](https://github.com/nhn/tui.date-picker) >=3.0.0
 
 You can also use **lodash** instead of underscore and use **higher version of jquery** (like v2.x.x) depending on your project.
 
@@ -102,8 +98,8 @@ var instance = new tui.Grid(...);
 ```
 
 ### Download
-* [Download bundle files from **dist** folder.](https://github.com/nhnent/tui.grid/tree/production/dist)
-* [Download all sources for each version.](https://github.com/nhnent/tui.grid/releases)
+* [Download bundle files from **dist** folder.](https://github.com/nhn/tui.grid/tree/production/dist)
+* [Download all sources for each version.](https://github.com/nhn/tui.grid/releases)
 
 ## License
-This software is licensed under the [MIT License](https://github.com/nhnent/tui.grid/blob/master/LICENSE).
+This software is licensed under the [MIT License](https://github.com/nhn/tui.grid/blob/master/LICENSE).
