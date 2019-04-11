@@ -18,14 +18,14 @@ npm install tui-grid
 
 This downloads all necessary files for the **Toast-UI Grid**, including all dependencies.
 
-You can also download these files manually at the [dist directory](https://github.com/nhnent/tui.grid/tree/production/dist) or [releases page](https://github.com/nhnent/tui.grid/releases). But you have to download all dependencies below manually as well.
+You can also download these files manually at the [dist directory](https://github.com/nhn/tui.grid/tree/production/dist) or [releases page](https://github.com/nhn/tui.grid/releases). But you have to download all dependencies below manually as well.
 
 - [jquery](https://jquery.com/) >=1.11.0
 - [underscore](http://underscorejs.org/) >=1.8.3
 - [backbone](http://backbonejs.org/) >=1.3.3
-- [tui-code-snippet](https://github.com/nhnent/tui.code-snippett) >=1.2.5
-- [tui-pagination](https://github.com/nhnent/tui.pagination) >=3.0.0 *(Optional. Required if you use pagination)*
-- [tui-date-picker](https://github.com/nhnent/tui.date-picker) >=3.0.0 *(Optional. Required if you use date-picker)*
+- [tui-code-snippet](https://github.com/nhn/tui.code-snippett) >=1.2.5
+- [tui-pagination](https://github.com/nhn/tui.pagination) >=3.0.0 *(Optional. Required if you use pagination)*
+- [tui-date-picker](https://github.com/nhn/tui.date-picker) >=3.0.0 *(Optional. Required if you use date-picker)*
 
 
 ## Including Files
@@ -86,7 +86,7 @@ var grid = new Grid(...);
 
 The Grid class receives an option object as a parameter, in which only **el** field is required. The value of **el** should be a jQuery object of the HTML element you want to use as a wrapper. As this does not create an HTML element automatically, the wrapper element must exist in advance when creating the instance.
 
-Another options like **data**, **virtualScrolling**, **editingEvent** are optional, and you can find more options in detail at the [API page](https://nhnent.github.io/tui.grid/api).
+Another options like **data**, **virtualScrolling**, **editingEvent** are optional, and you can find more options in detail at the [API page](https://nhn.github.io/tui.grid/api).
 
 ## Defining Column Models
 
@@ -118,7 +118,7 @@ grid.setColumns([
 The **setColumns()** method receives an array as a parameter, in which each element specifies a column definition.
 The **name** property is only required, and it's used as a key of row data. The string value defined as the **title** property is shown in the column header. It's optional, but it would be better to set it because the column header will be empty without this value.
 
-You can specify the input type of the column using the **editOptions.type** property. If not specified, the type will be a **normal**, which is plain text that is not editable. The **text** type uses an **input[type=text]** element to present the value of the cell. More types like **select**, **checkbox** can be used as an **editOptions.type**. In addition, there are other options which can be used as a property of the **editOptions**. You can find the details about the **editOptions** at the [API page](https://nhnent.github.io/tui.grid/api).
+You can specify the input type of the column using the **editOptions.type** property. If not specified, the type will be a **normal**, which is plain text that is not editable. The **text** type uses an **input[type=text]** element to present the value of the cell. More types like **select**, **checkbox** can be used as an **editOptions.type**. In addition, there are other options which can be used as a property of the **editOptions**. You can find the details about the **editOptions** at the [API page](https://nhn.github.io/tui.grid/api).
 
 You can also define the column models with a **columns** option when creating the Grid instance.
 
@@ -185,15 +185,15 @@ Then you can see the table of your data on your screen.
 
 ## Example Page
 
-You can see the basic example [here](https://nhnent.github.io/tui.grid/api/tutorial-example01-basic.html).
+You can see the basic example [here](https://nhn.github.io/tui.grid/api/tutorial-example01-basic.html).
 
 ## Features
 
-- [Complex columns](https://github.com/nhnent/tui.grid/wiki/Complex-columns)
-- [Input types](https://github.com/nhnent/tui.grid/wiki/Input-types)
-- [Relation between columns](https://github.com/nhnent/tui.grid/wiki/Relation-between-columns)
-- [Applying Themes](https://github.com/nhnent/tui.grid/wiki/Applying-Themes)
-- [Using DatePicker component](https://github.com/nhnent/tui.grid/wiki/Using-DatePicker-component)
-- [Using Summary](https://github.com/nhnent/tui.grid/wiki/Using-Summary)
-- [Binding to remote data](https://github.com/nhnent/tui.grid/wiki/Binding-to-remote-data)
-- [CustomEvent](https://github.com/nhnent/tui.grid/wiki/CustomEvent)
+- [Complex columns](https://github.com/nhn/tui.grid/wiki/Complex-columns)
+- [Input types](https://github.com/nhn/tui.grid/wiki/Input-types)
+- [Relation between columns](https://github.com/nhn/tui.grid/wiki/Relation-between-columns)
+- [Applying Themes](https://github.com/nhn/tui.grid/wiki/Applying-Themes)
+- [Using DatePicker component](https://github.com/nhn/tui.grid/wiki/Using-DatePicker-component)
+- [Using Summary](https://github.com/nhn/tui.grid/wiki/Using-Summary)
+- [Binding to remote data](https://github.com/nhn/tui.grid/wiki/Binding-to-remote-data)
+- [CustomEvent](https://github.com/nhn/tui.grid/wiki/CustomEvent)
