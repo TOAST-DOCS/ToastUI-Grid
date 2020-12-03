@@ -42,7 +42,7 @@ You can also see the older versions of API page on the [releases page](https://g
 * [jquery](https://jquery.com/) >=1.11.0
 * [underscore](http://underscorejs.org/) >=1.8.3
 * [backbone](http://backbonejs.org/) >=1.3.3
-* [tui-code-snippet](https://github.com/nhn/tui.code-snippett) >=1.2.5
+* [tui-code-snippet](https://github.com/nhn/tui.code-snippet) >=1.2.5
 * component (optional)
   - [tui-pagination](https://github.com/nhn/tui.pagination) >=3.0.0
   - [tui-date-picker](https://github.com/nhn/tui.date-picker) >=3.0.0
@@ -98,7 +98,6 @@ var instance = new tui.Grid(...);
 ```
 
 ### Download
-* [Download bundle files from **dist** folder.](https://github.com/nhn/tui.grid/tree/production/dist)
 * [Download all sources for each version.](https://github.com/nhn/tui.grid/releases)
 
 ## License
