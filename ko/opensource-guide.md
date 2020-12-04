@@ -18,12 +18,12 @@ npm install tui-grid
 
 This downloads all necessary files for the **Toast-UI Grid**, including all dependencies.
 
-You can also download these files manually at the [dist directory](https://github.com/nhn/tui.grid/tree/production/dist) or [releases page](https://github.com/nhn/tui.grid/releases). But you have to download all dependencies below manually as well.
+You can also download these files manually at the [releases page](https://github.com/nhn/tui.grid/releases). But you have to download all dependencies below manually as well.
 
 - [jquery](https://jquery.com/) >=1.11.0
 - [underscore](http://underscorejs.org/) >=1.8.3
 - [backbone](http://backbonejs.org/) >=1.3.3
-- [tui-code-snippet](https://github.com/nhn/tui.code-snippett) >=1.2.5
+- [tui-code-snippet](https://github.com/nhn/tui.code-snippet) >=1.2.5
 - [tui-pagination](https://github.com/nhn/tui.pagination) >=3.0.0 *(Optional. Required if you use pagination)*
 - [tui-date-picker](https://github.com/nhn/tui.date-picker) >=3.0.0 *(Optional. Required if you use date-picker)*
 
