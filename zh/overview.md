@@ -1,8 +1,8 @@
-## Open Source > ToastUI Grid > 개요
+## Open Source > NHN CloudUI Grid > 개요
 
-## ![toast ui grid](https://cloud.githubusercontent.com/assets/12269489/13489851/a5ca2490-e16c-11e5-8d80-3bf6fe3b940d.png)
+## ![NHN Cloud ui grid](https://cloud.githubusercontent.com/assets/12269489/13489851/a5ca2490-e16c-11e5-8d80-3bf6fe3b940d.png)
 <br>
-The Toast UI Grid is a powerful widget which allows you to visualize and edit data via its table representation.
+The NHN Cloud UI Grid is a powerful widget which allows you to visualize and edit data via its table representation.
 
 ## Features
 * Various input types *(checkbox, radio, select, password, etc)*
@@ -24,7 +24,7 @@ The Toast UI Grid is a powerful widget which allows you to visualize and edit da
 * Binding to remote data
 
 <br>
-The video below shows the major features of Toast UI Grid briefly.<br>
+The video below shows the major features of NHN Cloud UI Grid briefly.<br>
 (Click the image to play!)
 
 [![intro-movie-shot](http://static.toastoven.net/prod_toastuigrid/intro-movie-sshot.png)](https://www.youtube.com/watch?v=pyPlOFhexQk)
