@@ -1,4 +1,4 @@
-## Open Source > NHN CloudUI Grid > Open Source Guide
+## Open Source > NHN Cloud UI Grid > Open Source Guide
 
 ## Downloading Files
 

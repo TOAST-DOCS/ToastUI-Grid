@@ -1,4 +1,4 @@
-## Open Source > NHN CloudUI Grid > 개요
+## Open Source > NHN Cloud UI Grid > 개요
 
 ## ![NHN Cloud ui grid](https://cloud.githubusercontent.com/assets/12269489/13489851/a5ca2490-e16c-11e5-8d80-3bf6fe3b940d.png)
 <br>

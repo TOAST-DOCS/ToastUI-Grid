@@ -1,4 +1,4 @@
-## Open Source > NHN CloudUI Grid > 오픈 소스 사용 가이드
+## Open Source > NHN Cloud UI Grid > 오픈 소스 사용 가이드
 
 ## Downloading Files
 
