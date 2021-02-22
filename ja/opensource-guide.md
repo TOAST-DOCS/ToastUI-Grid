@@ -1,8 +1,8 @@
-## Open Source > ToastUI Grid > Open Source Guide
+## Open Source > NHN Cloud UI Grid > Open Source Guide
 
 ## Downloading Files
 
-The recommended way to download the **Toast-UI Grid** as a package is through a package manager for the front-end like the [bower](http://bower.io) or the [npm](https://www.npmjs.com/).
+The recommended way to download the **NHN Cloud-UI Grid** as a package is through a package manager for the front-end like the [bower](http://bower.io) or the [npm](https://www.npmjs.com/).
 
 If you've installed the *bower*, run this command in the directory of your project.
 
@@ -16,7 +16,7 @@ Also, you can download it using the *npm* since version 2.3.0 or later.
 npm install tui-grid
 ```
 
-This downloads all necessary files for the **Toast-UI Grid**, including all dependencies.
+This downloads all necessary files for the **NHN Cloud-UI Grid**, including all dependencies.
 
 You can also download these files manually at the [releases page](https://github.com/nhn/tui.grid/releases). But you have to download all dependencies below manually as well.
 
@@ -60,11 +60,11 @@ Similarly, you can download and include files through the npm. In this case, the
 <script src="node_modules/tui-grid/dist/tui-grid.js"></script>
 ```
 
-There is one more thing to do. The Toast-UI Grid uses two images to display a loading-indicator and icons, **ani_loading.gif** and **icons.gif** respectively. In the CSS file, paths of these images are specified with the relative path **../images/**. If you place the images in the different paths, you should find and replace all paths of the images in the CSS file to the correct paths.
+There is one more thing to do. The NHN Cloud-UI Grid uses two images to display a loading-indicator and icons, **ani_loading.gif** and **icons.gif** respectively. In the CSS file, paths of these images are specified with the relative path **../images/**. If you place the images in the different paths, you should find and replace all paths of the images in the CSS file to the correct paths.
 
 ## Creating an Instance
 
-To use the **Toast-UI Grid** in your page, you should create an instance of **tui.Grid** like example below.
+To use the **NHN Cloud-UI Grid** in your page, you should create an instance of **tui.Grid** like example below.
 This uses the Grid class as a namespace when you include the script files in your html page.
 
 ```javascript
