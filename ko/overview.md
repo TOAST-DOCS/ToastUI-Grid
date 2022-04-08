@@ -6,19 +6,6 @@
 
 ![tui-grid](https://user-images.githubusercontent.com/18183560/42144044-de298b02-7df3-11e8-8bbd-dc824ae0df52.png)
 
-## 🚩 Table of Contents
-
-- [Packages](#-packages)
-- [The NHN Cloud Toast UI Grid Is an Ultimate Transformer](#-the-toast-ui-grid-is-an-ultimate-transformer)
-- [Features](#-features)
-- [Examples](#-examples)
-- [Browser Support](#-browser-support)
-- [Pull Request Steps](#-pull-request-steps)
-- [Contributing](#-contributing)
-- [NHN Cloud TOAST UI Family](#-toast-ui-family)
-- [Used By](#-used-by)
-- [License](#-license)
-
 ## 📦 Packages
 
 The functionality of NHN Cloud TOAST UI Grid is available when using the Plain javaScript, React, Vue Component.
