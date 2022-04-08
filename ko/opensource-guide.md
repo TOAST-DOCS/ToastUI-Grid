@@ -182,5 +182,4 @@ grid.resetData(data);
 
 
 ## 예제
-
 Grid의 예제는 [여기](https://nhn.github.io/tui.grid/latest/tutorial-example01-basic)서 확인할 수 있다.

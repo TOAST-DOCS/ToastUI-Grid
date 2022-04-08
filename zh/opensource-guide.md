@@ -80,7 +80,7 @@ import Grid from 'tui-grid';
 
 const grid = new Grid({
   el: document.getElementById('wrapper'), // Container element
-  columns: [ 
+  columns: [
     // ...,
   ],
   // ...,
@@ -143,7 +143,7 @@ const data = [
   {
     id: '10013',
     city: 'Tokyo',
-    country: 'Japan'    
+    country: 'Japan'
   },
   {
     id: '10014',
@@ -180,5 +180,4 @@ Then you can see the table of your data on your screen.
 ![getting_started](https://user-images.githubusercontent.com/35371660/59482121-72993480-8ea2-11e9-8dba-46c04c727b31.png)
 
 ## Example
-
 You can see the basic example [here](https://nhn.github.io/tui.grid/latest/tutorial-example01-basic).

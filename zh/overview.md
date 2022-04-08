@@ -173,7 +173,6 @@ $ npm run test
 ```
 
 ### Pull Request
-
 Before uploading your PR, run test one last time to check if there are any errors.
 If it has no errors, commit and then push it!
 
