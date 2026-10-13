@@ -182,7 +182,7 @@ For more information on PR's steps, please see links in the Contributing section
 
 - [NCP - Commerce Platform](https://www.e-ncp.com/)
 - [HANGAME](https://www.hangame.com/)
-- [Gamebase](https://docs.toast.com/ko/Game/Gamebase/ko/oper-analytics/)
+- [Gamebase](https://docs.nhncloud.com/ko/Game/Gamebase/ko/oper-analytics/)
 - [NHN Dooray - Collaboration Service](https://dooray.com/)
 - [Shop by](https://www.godo.co.kr/shopby/main.gd)
 - [Payco](https://www.payco.com/)
